@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "models",
+  "info": {
+    "singularName": "model",
+    "pluralName": "models",
+    "displayName": "Model"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "transmission": {
+      "type": "string"
+    },
+    "engine": {
+      "type": "string"
+    },
+    "volume": {
+      "type": "string"
+    },
+    "power": {
+      "type": "integer"
+    },
+    "color": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "availability": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "game",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "location": {
+      "type": "string"
+    },
+    "opponent": {
+      "type": "string"
+    },
+    "logoOpponent": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "homeTeam": {
+      "type": "string"
+    },
+    "logoHomeTeam": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "timeSpending": {
+      "type": "datetime"
+    },
+    "homeTeamCity": {
+      "type": "string"
+    },
+    "opponentTeamCity": {
+      "type": "string"
+    }
+  }
+}
